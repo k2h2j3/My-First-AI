@@ -1,8 +1,0 @@
-딥러닝 및 머신러닝 2주차 실습입니다
-
-import pandas as pd
-data_url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data'
-df_data = pd.read_csv(data_url, sep='\s+', header = None)
-df_data.columns = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS',
-                  'RAD', 'TAX', 'PTRATIO', 'B','LSTAT', 'MEDV']
-df_data.head()
